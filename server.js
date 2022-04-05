@@ -3,7 +3,7 @@ const session = require('express-session');
 const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const path = require('path');
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const serverRoutes = require('./routes/index.js');
 const cors = require('cors');
 const logger = require('./utils/logger');
@@ -21,7 +21,7 @@ const advancedOptions = { useNewUrlParser: true, useUnifiedTopology: true }
 // Middlewares
 app.use(cors('*'))
 app.use(express.static(path.join(__dirname,"public")));
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser('un secreto'));
