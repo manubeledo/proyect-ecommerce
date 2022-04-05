@@ -1,0 +1,27 @@
+<a class="whatsapp open-button" target="_blank"  id="open-button" onclick="openForm()"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+<div class="chat-popup" id="myForm">
+  <div class="form-container">
+    <div class="chat-history" id="chat-history">
+      <ul class="m-b-0" id="ul-chat">
+          <li class="clearfix">
+              <div class="message-data text-right">
+                  <span class="message-data-time">10:10 AM, Today</span>
+                  <!-- <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar"> -->
+              </div>
+              <div class="message other-message float-right"> This is a chat, you can talk with support if you're logged in </div>
+          </li>                            
+      </ul>
+  </div>
+  <div class="chat-message clearfix">
+      <div class="input-group mb-0">
+              <div class="input-group-prepend">
+                  <span class="input-group-text"><button id="btn-send" style="all: unset; cursor: pointer;"><i class="fa fa-send"></i></button></span>
+              </div>
+              <input id="chat-message" type="text" class="form-control" placeholder="Enter text here...">
+      </div>
+  </div>
+    <!-- <button class="btn" id="btn-send-big">Send</button> -->
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+</div>
+</div>

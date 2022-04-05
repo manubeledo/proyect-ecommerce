@@ -1,0 +1,88 @@
+.fondo{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pl-4, .px-4 {
+    padding-left: 0rem!important;
+}
+
+.col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+}
+
+.utilities-item {
+    display: inline-block;
+    position: relative;
+    padding: 15px 6px;
+    font-size: 18px;
+}
+
+a {
+    color: #010101;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 0.875em;
+}
+
+.cart-widget-amount {
+    font-size: 10px;
+    position: absolute;
+    top: 12px;
+    right: -8px;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui.secondary.pointing.menu {
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 0px solid rgba(34,36,38,.15);
+}
+
+.ui.secondary.pointing.menu .item {
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-radius: 0;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin: 0 0 5px;
+    padding: 0.85714286em 1.14285714em;
+    border-bottom-width: 2px;
+    -webkit-transition: color .1s ease;
+    transition: color .1s ease;
+}
+
+a.item:hover{
+    color: #0d6efd !important
+}
