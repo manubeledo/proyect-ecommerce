@@ -10,11 +10,12 @@ const httpServer = new HttpServer(app());
 const io = new IOServer(httpServer);
 controllersChat = require('./http/controllers.chats')
 // const { newChatModel : db } = require('../config/db')
-
+const PORT = process.env.PORT || 3000;
 
 let {mode, portCLI} = args
 
-let port = portCLI ? portCLI : appConfig.port
+// FOR CLUSTER USE
+let port = portCLI ? portCLI : PORT
 
 if (mode ==='cluster' && cluster.isPrimary) {
   
@@ -33,7 +34,7 @@ if (mode ==='cluster' && cluster.isPrimary) {
 } 
 
 else {
-  httpServer.listen(port, () => logger.getLogger('consola').info(`New worker server ${process.pid} started by ${mode || "not specified"} mode on port ${port} http://localhost:8080`))
+  httpServer.listen(PORT, () => logger.getLogger('consola').info(`New worker server ${process.pid} started by ${mode || "not specified"} mode on port ${port} http://localhost:8080`))
 }
 
 io.on("connection", (socket) => {

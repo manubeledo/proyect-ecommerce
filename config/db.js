@@ -71,7 +71,7 @@ const newChatModel = mongoose.model('newChat', newChatsSchema)
 
 
 let appConfig = {
-    port: process.env.PORT
+    port: process.env.PORT || 5000
 }
 
 module.exports = { productosModel, carritosModel, User, chatModel, newChatModel, appConfig }
