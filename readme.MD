@@ -1,23 +1,13 @@
-Testeo de funcionalidades con ``mocha`` ``chai`` y ``axios``
+```PARA EL LOGIN COMO ADMIN USAR:```
 
-PARA EL LOGIN USAR:
+``USUARIO: manuel``
+``PASSOWORD: 123``
 
-USUARIO: manuel
-PASSOWORD: 123
-
-Logout --> Cerrar sesion. Se hace con passport Logout ✔️
-Pestaña carritos
-MandarSMS ✔️
-Mandar Mail con detalle productos, agregar  telefono y multer con foto ✔️
-Boton de Logout ✔️
-Server con Artillery ✔️
-Whatsapp ✔️
-Cluster ✔️
-Agregar Alert mejorado en el ejs de loadproduct 
-Ruta carritos
-
-FALTA HACER 
-
-Vistas para que aparezca logout y nombre de usuario logueado
-Modificar twilio para que lleguen los mails 
+Login para poder agregar productos✔️
+Login para loguear con cualquier usuario y comprar ✔️ 
+Centro de mensajes individuales para comunicarse con soporte ✔️
+Envio de notificacion de compra via mail (nodemailer) ✔️
+Registro de usuario nuevo con foto (multer) ✔️
+Server testeado con Artillery ✔️
+Modo Cluster ✔️
 
