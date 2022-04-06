@@ -2,10 +2,10 @@
     <div class="ui secondary pointing menu">
       <a href="./index"class="active item" style="color: white;"> Home </a>
       <a href="./loadproduct" class="item" style="color: white;"> Products </a>
-      <a href="./carrito" class="item" style="color: white;"> Carritos </a>
+      <a href="./carrito" class="item" style="color: white;"> Carts </a>
       <div class="right menu">
       <% if (typeof user_data !== 'undefined') { %>
-      <a href="./chat" class="item" style="color: white;"> Centro de mensajes </a>
+      <a href="./chat" class="item" style="color: white;"> Users Messages </a>
           <a class="ui item" style="color: white;">Welcome &nbsp <p id="username"style="color: white'"><%= user_data.username %></p></a>
           <div class="col-auto pl-4">
             <a href="#" class="js-modal-open js-toggle-cart js-fullscreen-modal-open utilities-item" data-toggle="#modal-cart" data-modal-url="modal-fullscreen-cart" data-component="cart-button">
