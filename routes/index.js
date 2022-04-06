@@ -2,7 +2,6 @@ let passport = require('passport');
 const { Router } = require("express");
 const router = Router();
 const checkForAuth = require('../passport/local-auth')
-const { newuserEmail } = require('../services/sendEmail')
 const upload = require('../http/middlewares/multer')
 
 controllersProductos = require('../http/controllers.productos')

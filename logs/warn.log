@@ -1259,3 +1259,9 @@
 [2022-04-06T13:24:11.381] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
 [2022-04-06T13:24:13.198] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
 [2022-04-06T13:24:15.691] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
+[2022-04-06T15:14:17.042] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
+[2022-04-06T15:14:20.276] [WARN] outwarning - Try to access non existing route GET - /avatar
+[2022-04-06T15:14:20.429] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
+[2022-04-06T15:14:22.478] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
+[2022-04-06T15:14:40.825] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
+[2022-04-06T15:14:49.906] [WARN] outwarning - Try to access non existing route GET - /favicon.ico
