@@ -27,7 +27,7 @@ let authSignup = passport.authenticate('signup',{
 
 let comesFromSignup = (req, res, next) => {
     if(req.header('referer') == `http://localhost:${process.env.PORT}/api/signup`){
-        newuserEmail(req.user)
+        if(req.user) newuserEmail(req.user)
         next()
     } else{
         next()
