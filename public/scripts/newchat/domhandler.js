@@ -40,6 +40,7 @@ chatMessage.addEventListener('keyup', (e) => {
 })
 
 const addMessage = message => {
+    console.log(message)
     chat.innerHTML += ` <li class="clearfix">
                             <div class="message-data text-right">
                                 <span class="message-data-time">${message.sender}, ${message.timestamp}</span>

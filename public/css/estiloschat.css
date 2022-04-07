@@ -33,9 +33,9 @@ body{
 }
 
 
-.card{
+/* .card{
     overflow-y: hidden;
-}
+} */
 
 .people-list .chat-list li {
     padding: 10px 15px;
@@ -273,5 +273,5 @@ body{
 }
 
 .container {
-    margin-top: 150px !important;
+    margin-top: 10px !important;
 }

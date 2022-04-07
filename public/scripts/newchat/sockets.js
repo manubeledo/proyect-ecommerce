@@ -23,3 +23,4 @@ getUsers(receiver, sender)
 
 socket.on('server:newmessage', addMessage);
 socket.on('server:loadmessages', loadMessage);
+socket.on("server:chatfrontnewmessage", addMessage);

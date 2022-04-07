@@ -5,7 +5,7 @@ const chat = document.getElementById('ul-chat')
 const chatWindow = document.getElementById('chat-history')
 
 
-console.log('DESDE CHATJS')
+console.log('CHATJS FOR INDEX VIEW')
 
 const socket = io();
 
@@ -91,5 +91,6 @@ const getUsers = (sender) => {
 
 getUsers(sender)
 
+socket.on("server:newmessage", addMessagesFromUser);
 socket.on('server:chatfrontnewmessage', addMessage);
 socket.on('server:loadmessages', loadMessage);
