@@ -30,15 +30,18 @@ const fetchData = async () => {
 }
 // With data makes the cards of carritos
 const pintarCarrito = (datos) => {
+    console.log(datos)
     items.innerHTML = '';
         datos.forEach(carrito => {
-        templateCarrito.querySelector('th').textContent = carrito.id_carrito
-        templateCarrito.querySelectorAll('td')[0].textContent = carrito.id_producto
-        templateCarrito.querySelectorAll('td')[1].textContent = carrito.cantidad
+        let date = new Date(carrito.id);
+        console.log(date)
+        templateCarrito.querySelector('th').textContent = carrito._id
+        templateCarrito.querySelectorAll('td')[0].textContent = carrito.id
+        templateCarrito.querySelectorAll('td')[1].textContent = carrito.id_
         templateCarrito.querySelectorAll('td')[2].textContent = carrito.description
         templateCarrito.querySelectorAll('td')[3].textContent = 'VACIO'
-        templateCarrito.querySelectorAll('td')[4].textContent = 'VACIO'
-
+        templateCarrito.querySelectorAll('td')[4].textContent = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+        
         // templateCarrito.querySelector('.btn-info').dataset.id = carrito.id
         templateCarrito.querySelector('.btn-danger').dataset.id = carrito.id_carrito
 
@@ -74,7 +77,8 @@ items.addEventListener('click', e => {
 
 const btnAccion = async (e) => {
     if (e.target.classList.contains('btn-danger')) {
-        await fetch(`/api/carritos/${e.target.dataset.id}`, {
+        let idNumber = e.path[2].cells[1].innerHTML
+        await fetch(`/api/carritos/${idNumber}`, {
             method: 'DELETE',
             headers:{ 'Content-Type': 'application/json' }
         })

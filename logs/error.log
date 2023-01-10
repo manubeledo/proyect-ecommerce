@@ -7,3 +7,47 @@
 [2022-02-19T19:27:00.389] [ERROR] outerror - error al conectarse a Mongo
 [2022-02-19T19:27:00.421] [ERROR] outerror - error al conectarse a Mongo
 [2022-02-19T19:27:00.468] [ERROR] outerror - error al conectarse a Mongo
+[2023-01-10T12:26:51.231] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T12:33:20.355] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T12:33:23.331] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T12:33:49.751] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T12:34:05.851] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:04:23.396] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:17:33.123] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:17:59.509] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:18:04.269] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:18:27.245] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:20:32.702] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:20:49.705] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:21:34.027] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:22:01.095] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:22:31.815] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:22:49.018] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:05.182] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:09.826] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:11.834] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:12.777] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:13.268] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:28.069] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got undefined
+[2023-01-10T19:23:49.122] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:23:52.611] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364906
+[2023-01-10T19:23:53.470] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673371999
+[2023-01-10T19:27:11.398] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:27:32.580] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:27:53.444] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:28:57.915] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:29:05.023] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364906
+[2023-01-10T19:29:39.519] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673371999
+[2023-01-10T19:29:46.722] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:30:58.246] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:31:02.440] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:31:06.735] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364906
+[2023-01-10T19:31:44.209] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:31:56.400] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:32:00.503] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364906
+[2023-01-10T19:32:17.459] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:32:22.932] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:32:27.802] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:32:44.035] [ERROR] outerror - error eliminando productoObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 1673364270
+[2023-01-10T19:33:40.911] [ERROR] outerror - error eliminando productoReferenceError: id is not defined
+[2023-01-10T19:34:08.575] [ERROR] outerror - error eliminando productoReferenceError: id is not defined

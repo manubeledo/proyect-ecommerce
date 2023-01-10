@@ -35,7 +35,7 @@ if (mode ==='cluster' && cluster.isPrimary) {
 
 else {
   httpServer.listen(PORT, () => 
-  logger.getLogger('consola').info(`New worker server ${process.pid} started by ${mode || "not specified"} mode on port ${port} http://localhost:5000`)
+  logger.getLogger('consola').info(`New worker server ${process.pid} started by ${mode || "not specified"} mode on port ${port} http://localhost:${port}`)
   )
 }
 

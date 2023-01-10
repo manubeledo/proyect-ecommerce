@@ -1,9 +1,11 @@
 const { carritosModel : db } = require('../config/db')
 const { newPurchase } = require('../services/sendEmail')
+const logger = require('../utils/logger')
 
 const write = async (req, res) => {
     newPurchase(req.body)
     let carrito  = req.body
+    console.log('Este es el carrito', carrito)
     let object = {
         id : carrito[0].id_carrito,
         productos_carrito: carrito
@@ -28,10 +30,13 @@ const read = async (req, res) => {
 }
 
 const deleted = async (req, res) => {
+    console.log(req.params.id)
     try {
-        let { id } = req.params
-        await db.deleteOne(id)
-        res.send(`carrito con el id ${id} eliminado`)
+        let object = {
+            id : req.params.id
+        }
+        await db.deleteOne(object)
+        res.send(`carrito con el id ${object} eliminado`)
     } 
     catch (error) {
         logger.getLogger('outerror').error('error eliminando producto' + error)
